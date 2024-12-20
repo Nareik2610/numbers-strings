@@ -11,5 +11,9 @@ package natural
 // um den Gesamt-String einer Zahl zusammenzusetzen.
 func DigitString10(digit int) string {
 	// TODO
-	return ""
+
+	zahlen := []string{" ", " ", "zwanzig", "dreißig", "vierzig", "fünfzig", "sechzig", "siebzig", "achtzig", "neunzig"}
+
+	return zahlen[digit]
+
 }
