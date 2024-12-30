@@ -11,5 +11,7 @@ package natural
 // um den Gesamt-String einer Zahl zusammenzusetzen.
 func DigitString100(digit int) string {
 	// TODO
+	
+
 	return ""
 }

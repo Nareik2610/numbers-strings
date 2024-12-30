@@ -15,7 +15,15 @@ func NumberString3Digits(n int) string {
 	if n > 0 && n < 20 {
 
 		return zahleneinsbisneunzehn[n]
+	
 	}
+	for n != 0 {
+		r := n % 10
+		n = n / 10
+
+
+
+	
 
 	return zahlen[n]
 
